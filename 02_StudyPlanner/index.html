@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>스터디 플래너</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+	<link rel="stylesheet" href="../reset/font.css">
+	<link rel="stylesheet" href="../reset/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<main id="StudyPlan">
+		<header>
+			<h1>스터디 플래너</h1>
+			<p>공부계획을 설정하고 관리할 수 있습니다.</p>
+		</header>
+
+		<!-- 등록 -->
+		<section class="SP-Create">
+			<div class="inputBox">
+				<input type="text" id="subjectInput" placeholder="과목을 입력하세요">
+				<input type="text" id="contentInput" placeholder="공부 내용을 입력하세요">
+				<input type="date" id="dateInput">
+				<button id="addBtn" type="button">추가</button>
+			</div>
+		</section>
+
+		<!-- 조회 -->
+		<section class="SP-Read">
+			<div class="SPCount">
+				<h2>계획 목록</h2>
+				<p>남은 계획: <strong id="remainingCount">0</strong></p>
+				<p>전체 계획: <strong id="totalCount">0</strong></p>
+			</div>
+			<div class="range">
+				<button id="dateSortBtn">마감일순 <i class="ri-arrow-down-s-fill"></i></button>
+			</div>
+			<ul id="SPList">
+				<li>
+					<input type="checkbox">
+					<div class="info">
+						<div class="left">
+							<p class="subject">과목명</p>
+							<p class="content">과목설명</p>
+						</div>
+						<div class="right">
+							<span class="date">20206-06-24</span>
+						</div>
+					</div>
+					<button type="button" class="del">삭제</button>
+				</li>
+
+				<li>asdadasd</li>
+				<!-- JS로 목록생성 -->
+			</ul>
+		</section>
+
+		<!-- 수정 -->
+		<!-- 삭제 -->
+
+
+	</main>
+
+	<script src="./js/study.js"></script>
+
+</body>
+
+</html>
