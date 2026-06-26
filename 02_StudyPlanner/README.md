@@ -34,6 +34,6 @@ JavaScript 기반 학습 일정 등록 및 관리 앱이다.
 <br>
 
 ## Link
-- Blog :
-- Demo :
+- Blog : https://sdesign416.tistory.com/67
+- Demo : https://sdesign416.github.io/Mini-Projects/02_StudyPlanner/
 <br>
